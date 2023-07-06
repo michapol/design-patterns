@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		278DDA6C2A0E8DEC00BD7CB1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278DDA6B2A0E8DEC00BD7CB1 /* main.swift */; };
+		27B965592A56B66F0075BA27 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B965582A56B66F0075BA27 /* main.swift */; };
+		27B965612A56B7350075BA27 /* BridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B965602A56B7350075BA27 /* BridgeApp.swift */; };
+		27B965632A56B80D0075BA27 /* TheProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B965622A56B80D0075BA27 /* TheProblem.swift */; };
+		27B965662A56BA080075BA27 /* ColourAbastarction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B965652A56BA080075BA27 /* ColourAbastarction.swift */; };
+		27B965682A56BB030075BA27 /* MessageAbstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B965672A56BB030075BA27 /* MessageAbstraction.swift */; };
+		27B9656A2A56BEBA0075BA27 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B965692A56BEBA0075BA27 /* Implementation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		278DDA662A0E8DEC00BD7CB1 /* CopyFiles */ = {
+		27B965532A56B66F0075BA27 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +28,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		278DDA682A0E8DEC00BD7CB1 /* Bridge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bridge; sourceTree = BUILT_PRODUCTS_DIR; };
-		278DDA6B2A0E8DEC00BD7CB1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		27B965552A56B66F0075BA27 /* Bridge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bridge; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B965582A56B66F0075BA27 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		27B965602A56B7350075BA27 /* BridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeApp.swift; sourceTree = "<group>"; };
+		27B965622A56B80D0075BA27 /* TheProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheProblem.swift; sourceTree = "<group>"; };
+		27B965652A56BA080075BA27 /* ColourAbastarction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourAbastarction.swift; sourceTree = "<group>"; };
+		27B965672A56BB030075BA27 /* MessageAbstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAbstraction.swift; sourceTree = "<group>"; };
+		27B965692A56BEBA0075BA27 /* Implementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		278DDA652A0E8DEC00BD7CB1 /* Frameworks */ = {
+		27B965522A56B66F0075BA27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +48,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		278DDA5F2A0E8DEB00BD7CB1 = {
+		27B9654C2A56B66F0075BA27 = {
 			isa = PBXGroup;
 			children = (
-				278DDA6A2A0E8DEC00BD7CB1 /* Bridge */,
-				278DDA692A0E8DEC00BD7CB1 /* Products */,
+				27B965572A56B66F0075BA27 /* Bridge */,
+				27B965562A56B66F0075BA27 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		278DDA692A0E8DEC00BD7CB1 /* Products */ = {
+		27B965562A56B66F0075BA27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				278DDA682A0E8DEC00BD7CB1 /* Bridge */,
+				27B965552A56B66F0075BA27 /* Bridge */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		278DDA6A2A0E8DEC00BD7CB1 /* Bridge */ = {
+		27B965572A56B66F0075BA27 /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
-				278DDA6B2A0E8DEC00BD7CB1 /* main.swift */,
+				27B9655F2A56B7190075BA27 /* App */,
+				27B965622A56B80D0075BA27 /* TheProblem.swift */,
+				27B965652A56BA080075BA27 /* ColourAbastarction.swift */,
+				27B965672A56BB030075BA27 /* MessageAbstraction.swift */,
+				27B965692A56BEBA0075BA27 /* Implementation.swift */,
 			);
 			path = Bridge;
+			sourceTree = "<group>";
+		};
+		27B9655F2A56B7190075BA27 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				27B965582A56B66F0075BA27 /* main.swift */,
+				27B965602A56B7350075BA27 /* BridgeApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		278DDA672A0E8DEC00BD7CB1 /* Bridge */ = {
+		27B965542A56B66F0075BA27 /* Bridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 278DDA6F2A0E8DEC00BD7CB1 /* Build configuration list for PBXNativeTarget "Bridge" */;
+			buildConfigurationList = 27B9655C2A56B66F0075BA27 /* Build configuration list for PBXNativeTarget "Bridge" */;
 			buildPhases = (
-				278DDA642A0E8DEC00BD7CB1 /* Sources */,
-				278DDA652A0E8DEC00BD7CB1 /* Frameworks */,
-				278DDA662A0E8DEC00BD7CB1 /* CopyFiles */,
+				27B965512A56B66F0075BA27 /* Sources */,
+				27B965522A56B66F0075BA27 /* Frameworks */,
+				27B965532A56B66F0075BA27 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,25 +102,25 @@
 			);
 			name = Bridge;
 			productName = Bridge;
-			productReference = 278DDA682A0E8DEC00BD7CB1 /* Bridge */;
+			productReference = 27B965552A56B66F0075BA27 /* Bridge */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		278DDA602A0E8DEB00BD7CB1 /* Project object */ = {
+		27B9654D2A56B66F0075BA27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					278DDA672A0E8DEC00BD7CB1 = {
+					27B965542A56B66F0075BA27 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 278DDA632A0E8DEB00BD7CB1 /* Build configuration list for PBXProject "Bridge" */;
+			buildConfigurationList = 27B965502A56B66F0075BA27 /* Build configuration list for PBXProject "Bridge" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +128,34 @@
 				en,
 				Base,
 			);
-			mainGroup = 278DDA5F2A0E8DEB00BD7CB1;
-			productRefGroup = 278DDA692A0E8DEC00BD7CB1 /* Products */;
+			mainGroup = 27B9654C2A56B66F0075BA27;
+			productRefGroup = 27B965562A56B66F0075BA27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				278DDA672A0E8DEC00BD7CB1 /* Bridge */,
+				27B965542A56B66F0075BA27 /* Bridge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		278DDA642A0E8DEC00BD7CB1 /* Sources */ = {
+		27B965512A56B66F0075BA27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278DDA6C2A0E8DEC00BD7CB1 /* main.swift in Sources */,
+				27B965612A56B7350075BA27 /* BridgeApp.swift in Sources */,
+				27B9656A2A56BEBA0075BA27 /* Implementation.swift in Sources */,
+				27B965632A56B80D0075BA27 /* TheProblem.swift in Sources */,
+				27B965662A56BA080075BA27 /* ColourAbastarction.swift in Sources */,
+				27B965592A56B66F0075BA27 /* main.swift in Sources */,
+				27B965682A56BB030075BA27 /* MessageAbstraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		278DDA6D2A0E8DEC00BD7CB1 /* Debug */ = {
+		27B9655A2A56B66F0075BA27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		278DDA6E2A0E8DEC00BD7CB1 /* Release */ = {
+		27B9655B2A56B66F0075BA27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +268,7 @@
 			};
 			name = Release;
 		};
-		278DDA702A0E8DEC00BD7CB1 /* Debug */ = {
+		27B9655D2A56B66F0075BA27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +277,7 @@
 			};
 			name = Debug;
 		};
-		278DDA712A0E8DEC00BD7CB1 /* Release */ = {
+		27B9655E2A56B66F0075BA27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,25 +289,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		278DDA632A0E8DEB00BD7CB1 /* Build configuration list for PBXProject "Bridge" */ = {
+		27B965502A56B66F0075BA27 /* Build configuration list for PBXProject "Bridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				278DDA6D2A0E8DEC00BD7CB1 /* Debug */,
-				278DDA6E2A0E8DEC00BD7CB1 /* Release */,
+				27B9655A2A56B66F0075BA27 /* Debug */,
+				27B9655B2A56B66F0075BA27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		278DDA6F2A0E8DEC00BD7CB1 /* Build configuration list for PBXNativeTarget "Bridge" */ = {
+		27B9655C2A56B66F0075BA27 /* Build configuration list for PBXNativeTarget "Bridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				278DDA702A0E8DEC00BD7CB1 /* Debug */,
-				278DDA712A0E8DEC00BD7CB1 /* Release */,
+				27B9655D2A56B66F0075BA27 /* Debug */,
+				27B9655E2A56B66F0075BA27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 278DDA602A0E8DEB00BD7CB1 /* Project object */;
+	rootObject = 27B9654D2A56B66F0075BA27 /* Project object */;
 }
