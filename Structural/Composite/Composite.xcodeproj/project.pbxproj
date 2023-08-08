@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2713D1122A822D470075E873 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1112A822D470075E873 /* main.swift */; };
 		2713D1662A822E050075E873 /* CompositeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1652A822E050075E873 /* CompositeApp.swift */; };
+		2713D1772A8232C00075E873 /* DevelopmentHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1732A8232C00075E873 /* DevelopmentHours.swift */; };
+		2713D1782A8232C00075E873 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1742A8232C00075E873 /* Manager.swift */; };
+		2713D1792A8232C00075E873 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1752A8232C00075E873 /* Department.swift */; };
+		2713D17A2A8232C00075E873 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1762A8232C00075E873 /* Developer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +31,10 @@
 		2713D10E2A822D470075E873 /* Composite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Composite; sourceTree = BUILT_PRODUCTS_DIR; };
 		2713D1112A822D470075E873 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2713D1652A822E050075E873 /* CompositeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeApp.swift; sourceTree = "<group>"; };
+		2713D1732A8232C00075E873 /* DevelopmentHours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevelopmentHours.swift; sourceTree = "<group>"; };
+		2713D1742A8232C00075E873 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		2713D1752A8232C00075E873 /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		2713D1762A8232C00075E873 /* Developer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				2713D1642A822DF00075E873 /* App */,
+				2713D1752A8232C00075E873 /* Department.swift */,
+				2713D1762A8232C00075E873 /* Developer.swift */,
+				2713D1732A8232C00075E873 /* DevelopmentHours.swift */,
+				2713D1742A8232C00075E873 /* Manager.swift */,
 			);
 			path = Composite;
 			sourceTree = "<group>";
@@ -131,8 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2713D17A2A8232C00075E873 /* Developer.swift in Sources */,
 				2713D1122A822D470075E873 /* main.swift in Sources */,
 				2713D1662A822E050075E873 /* CompositeApp.swift in Sources */,
+				2713D1792A8232C00075E873 /* Department.swift in Sources */,
+				2713D1772A8232C00075E873 /* DevelopmentHours.swift in Sources */,
+				2713D1782A8232C00075E873 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
