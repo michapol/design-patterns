@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2713D14B2A822D800075E873 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D14A2A822D800075E873 /* main.swift */; };
 		2713D16F2A822E500075E873 /* FlywieghtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D16E2A822E500075E873 /* FlywieghtApp.swift */; };
+		2713D1862A823FB60075E873 /* FlyweightUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1852A823FB60075E873 /* FlyweightUser.swift */; };
+		2713D1882A823FC30075E873 /* FlyweightTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1872A823FC30075E873 /* FlyweightTeam.swift */; };
+		2713D18A2A823FF40075E873 /* FlyweightRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1892A823FF40075E873 /* FlyweightRole.swift */; };
+		2713D18D2A82414E0075E873 /* StandardUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D18C2A82414E0075E873 /* StandardUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +31,10 @@
 		2713D1472A822D800075E873 /* Flyweight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Flyweight; sourceTree = BUILT_PRODUCTS_DIR; };
 		2713D14A2A822D800075E873 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2713D16E2A822E500075E873 /* FlywieghtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlywieghtApp.swift; sourceTree = "<group>"; };
+		2713D1852A823FB60075E873 /* FlyweightUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightUser.swift; sourceTree = "<group>"; };
+		2713D1872A823FC30075E873 /* FlyweightTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightTeam.swift; sourceTree = "<group>"; };
+		2713D1892A823FF40075E873 /* FlyweightRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightRole.swift; sourceTree = "<group>"; };
+		2713D18C2A82414E0075E873 /* StandardUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				2713D16D2A822E400075E873 /* App */,
+				2713D1852A823FB60075E873 /* FlyweightUser.swift */,
+				2713D1872A823FC30075E873 /* FlyweightTeam.swift */,
+				2713D1892A823FF40075E873 /* FlyweightRole.swift */,
+				2713D18C2A82414E0075E873 /* StandardUser.swift */,
 			);
 			path = Flyweight;
 			sourceTree = "<group>";
@@ -131,8 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2713D1882A823FC30075E873 /* FlyweightTeam.swift in Sources */,
 				2713D14B2A822D800075E873 /* main.swift in Sources */,
+				2713D18D2A82414E0075E873 /* StandardUser.swift in Sources */,
 				2713D16F2A822E500075E873 /* FlywieghtApp.swift in Sources */,
+				2713D1862A823FB60075E873 /* FlyweightUser.swift in Sources */,
+				2713D18A2A823FF40075E873 /* FlyweightRole.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
