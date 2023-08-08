@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2713D15E2A822D980075E873 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D15D2A822D980075E873 /* main.swift */; };
 		2713D1722A822E710075E873 /* ProxyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1712A822E710075E873 /* ProxyApp.swift */; };
+		2713D18F2A824BAB0075E873 /* BigExpensiveClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D18E2A824BAB0075E873 /* BigExpensiveClass.swift */; };
+		2713D1912A824BC10075E873 /* ProxyOfBigPowerfulClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1902A824BC10075E873 /* ProxyOfBigPowerfulClass.swift */; };
+		2713D1932A824BCE0075E873 /* CommonInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1922A824BCE0075E873 /* CommonInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		2713D15A2A822D980075E873 /* Proxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Proxy; sourceTree = BUILT_PRODUCTS_DIR; };
 		2713D15D2A822D980075E873 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2713D1712A822E710075E873 /* ProxyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyApp.swift; sourceTree = "<group>"; };
+		2713D18E2A824BAB0075E873 /* BigExpensiveClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigExpensiveClass.swift; sourceTree = "<group>"; };
+		2713D1902A824BC10075E873 /* ProxyOfBigPowerfulClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyOfBigPowerfulClass.swift; sourceTree = "<group>"; };
+		2713D1922A824BCE0075E873 /* CommonInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				2713D1702A822E620075E873 /* App */,
+				2713D18E2A824BAB0075E873 /* BigExpensiveClass.swift */,
+				2713D1902A824BC10075E873 /* ProxyOfBigPowerfulClass.swift */,
+				2713D1922A824BCE0075E873 /* CommonInterface.swift */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -132,7 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2713D1722A822E710075E873 /* ProxyApp.swift in Sources */,
+				2713D18F2A824BAB0075E873 /* BigExpensiveClass.swift in Sources */,
+				2713D1932A824BCE0075E873 /* CommonInterface.swift in Sources */,
 				2713D15E2A822D980075E873 /* main.swift in Sources */,
+				2713D1912A824BC10075E873 /* ProxyOfBigPowerfulClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
