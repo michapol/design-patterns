@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2713D1382A822D690075E873 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1372A822D690075E873 /* main.swift */; };
 		2713D16C2A822E350075E873 /* FacadeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D16B2A822E350075E873 /* FacadeApp.swift */; };
+		2713D1842A823D160075E873 /* TrackingLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713D1832A823D160075E873 /* TrackingLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		2713D1342A822D690075E873 /* Facade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Facade; sourceTree = BUILT_PRODUCTS_DIR; };
 		2713D1372A822D690075E873 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2713D16B2A822E350075E873 /* FacadeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeApp.swift; sourceTree = "<group>"; };
+		2713D1832A823D160075E873 /* TrackingLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				2713D16A2A822E290075E873 /* App */,
+				2713D1832A823D160075E873 /* TrackingLibrary.swift */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				2713D1382A822D690075E873 /* main.swift in Sources */,
 				2713D16C2A822E350075E873 /* FacadeApp.swift in Sources */,
+				2713D1842A823D160075E873 /* TrackingLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
